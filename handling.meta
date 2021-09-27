@@ -1,0 +1,30 @@
+TUTORIAL HANDLING PARA AJUSTAR VEICULOS.  
+
+<nInitialDriveGears>  -> PARA MUDAR AS MARCHAS DO VEÍCULO
+
+<fInitialDriveForce -> POTÊNCIA DE SAÍDA DA TRANSMISSÃO PARA AS RODAS
+
+<fDriveInertia -> SE LEVANTAMOS, O MOTOR VAI MAIS RÁPIDO
+
+<fClutchChangeRateScaleUpShift E <fClutchChangeRateScaleDownShift
+
+NÓS COMBINAMOS EM UM VALOR MAIOR, É USADO PARA ALTERAR MAIS RÁPIDO, AMBOS PARA CIMA E PARA BAIXO
+
+<fInitialDriveMaxFlatVel -> É POSSÍVEL AUMENTAR O PICO DE VELOCIDADE, É PRECISO MULTIPLICÁ-LO PO 1,32 PARA SABER O KM/H REAL
+
+<fHandBrakeForce -> PARA AUMENTAR A FORÇA DO FREIO DE MÃO
+
+<fSteeringLock -> UM VALOR MAIOR AUMENTA O ÂNGULO MÁXIMO DE DIREÇÃO DA DIREÇÃO
+
+<fTractionCurveLateral -> PARA FAZER CURVAS MAIS PRÓXIMAS E COM MAIS APERTO
+
+<fLowSpeedTractionLossMult -> VAMOS ESCOLHER UM VALOR MENOR PARA AUMENTAR A TRAÇÃO DAS RODAS NAS SAÍDAS OU UM VALOR MAIOR PARA QUEIMAR MAIS RODAS
+
+<fTractionBiasFront -> 
+PARA CONFIGURAR SE É TRASEIRA 0,01, 4X4 TRACÇÃO 0,5 OU DIANTEIRA 0,99 DE VALOR, AFETA MUITO A ACELERAÇÃO DO CARRO
+
+<fTractionCurveMax ->
+Aderência em curva do veículo como um multiplicador do atrito da superfície do pneu.(editado)
+
+<fTractionCurveMin ->
+A aderência de aceleração / frenagem do veículo como um multiplicador do atrito da superfície do pneu
